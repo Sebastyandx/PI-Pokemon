@@ -1,0 +1,65 @@
+.formDiv {
+  right: 0;
+  margin: 20px;
+  max-width: 430px;
+  padding: 16px;
+  color: white;
+  background-color: black;
+  box-shadow: 3px 0px 10px 4px #050505;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 250px;
+}
+.imgBackground {
+  z-index: -1;
+}
+
+.formStyle {
+  display: block;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  color: white;
+  box-shadow: 3px 0px 10px 4px #050505;
+}
+
+.landscape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("../../image/img2.jpg");
+  background-size: cover;
+  min-height: 1100px;
+}
+
+.buttonVolverForm {
+  margin-left: 26px;
+  display: flex;
+  color: white;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Shippori Antique B1", sans-serif;
+  margin-left: 355px;
+}
+
+.buttonCreate {
+  border-radius: 50px;
+  color: white;
+  padding: 15px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+}
+
+.inputForm:invalid {
+  background-color: red;
+}

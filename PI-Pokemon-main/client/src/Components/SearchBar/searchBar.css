@@ -1,0 +1,17 @@
+.ButtonSearch {
+  display: flex;
+  color: white;
+  background-color: #f93433;
+  border-radius: 50px;
+  text-align: center;
+  justify-content: space-between;
+  padding: -3px 16px;
+  text-decoration: none;
+  font-family: "Shippori Antique B1", sans-serif;
+  margin-left: 762px;
+  margin-top: -20px;
+}
+
+.inputsearch {
+  border-radius: 30px;
+}
