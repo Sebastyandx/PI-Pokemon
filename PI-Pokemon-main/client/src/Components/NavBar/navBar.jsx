@@ -13,7 +13,7 @@ export default function NavBar() {
         </li>
         <li className="liNav">
           <Link className="linkStyle" to="/Pokemon">
-            Crear Pokémon!
+            Crear Pokémon! Delete!
           </Link>
         </li>
       </ul>
